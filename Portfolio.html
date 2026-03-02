@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Tunisien • colonnes sans bordure • image à côté</title>
+    <!-- HTML pur, pas de CSS, uniquement attributs de présentation -->
+</head>
+<body bgcolor="#fdf5e6" text="#2c1e0f" link="#a0522d" vlink="#6b3e1a">
+
+<!-- ========== EN-TÊTE ========== -->
+<center>
+    <font size="6" face="Arial" color="#b64516">
+        <b>🍽️ RESTAURANT Tmakhmikha  🇹🇳</b>
+    </font><br>
+    <font size="4" face="Georgia" color="#7b4b2a"><i>Cuisine tunisienne – menu en trois volets</i></font><br>
+    <!-- petite bannière épurée -->
+    <img src="https://placehold.co/700x90/edd7b0/5a3e1b?text=Tunisie+%C3%A0+table" width="700" height="90" alt="banniere">
+    <br>
+    <!-- ligne fine de séparation -->
+    <hr width="85%" color="#b64516" size="1">
+</center>
+
+<!-- ========== TABLE À 3 COLONNES – SANS BORDURE EXTÉRIEURE ========== 
+     On utilise cellspacing pour créer un petit espace entre colonnes, 
+     et on supprime les bordures (border="0"). La séparation visuelle 
+     est obtenue par une ligne horizontale entre chaque colonne grâce 
+     à des attributs de couleur + rangées invisibles. -->
+<table width="90%" align="center" cellpadding="12" cellspacing="0" border="0">
+    <tr align="center" valign="top">
+        <!-- ----- COLONNE GAUCHE : PLATS ----- -->
+        <td width="33%" bgcolor="#fff7ec" valign="top">
+            <font size="5" face="Arial" color="#b64516"><b>🥘 PLATS</b></font>
+            <br><br>
+
+            <!-- chaque plat : image flottante grâce à un tableau interne -->
+            <table border="0" cellpadding="4" cellspacing="0" width="100%">
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr> <!-- fine ligne séparatrice entre plats -->
+                <tr>
+                    <td width="70" valign="middle"><img src="https://img.cuisineaz.com/660x660/2023/03/29/i191986-filename-jpg.jpg" width="60" height="60" alt="couscous"></td>
+                    <td valign="middle"><b>Couscous royal</b> – agneau, poulet, merguez <font color="#b64516"><b>25 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://images.radio-canada.ca/q_auto,w_970/v1/alimentation/recette/16x9/dorade-bbq-sauce-vierge.jpg" width="60" height="60" alt="poisson"></td>
+                    <td valign="middle"><b>Poisson grillé</b> (loup), chermoula, pommes <font color="#b64516"><b>28 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://www.diversivore.com/wp-content/uploads/2020/09/Tajine-Maadnous-mobile-banner.jpg" width="60" height="60" alt="tajine"></td>
+                    <td valign="middle"><b>Tajine tunisien</b> – œuf, viande hachée, fromage <font color="#b64516"><b>15 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://ayshek.com/wp-content/uploads/2024/01/recette-de-mloukhia-tunisienne-ayshek.jpg" width="60" height="60" alt="mloukhiya"></td>
+                    <td valign="middle"><b>Mloukhiya</b> – bœuf, riz blanc, ragoût vert <font color="#b64516"><b>22 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://www.196flavors.com/wp-content/uploads/2018/03/ojja-shakshuka-2-FP.jpg" width="60" height="60" alt="ojja"></td>
+                    <td valign="middle"><b>Ojja merguez</b> – œufs, merguez, tomates <font color="#b64516"><b>14 DT</b></font></td>
+                </tr>
+            </table>
+        </td>
+
+        <!-- fine ligne verticale entre colonne 1 et 2 (remplace le contour) -->
+        <td width="1" bgcolor="#d9b382"></td>
+
+        <!-- ----- COLONNE MILIEU : BOISSONS ----- -->
+        <td width="33%" bgcolor="#fff7ec" valign="top">
+            <font size="5" face="Arial" color="#b64516"><b>🍹 BOISSONS</b></font>
+            <br><br>
+            <table border="0" cellpadding="4" cellspacing="0" width="100%">
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td width="70" valign="middle"><img src="https://roadofkitchen.com/wp-content/uploads/2023/04/41-1.jpg" width="60" height="60" alt="thé"></td>
+                    <td valign="middle"><b>Thé à la menthe</b> – pignons de pin <font color="#b64516"><b>3 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://www.sharmispassions.com/wp-content/uploads/2012/07/espresso-coffee-recipe04-500x500.jpg" width="60" height="60" alt="café"></td>
+                    <td valign="middle"><b>Café maure / expresso</b> <font color="#b64516"><b>2.5 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://www.cuisineculinaire.com/wp-content/uploads/2021/11/Laban-leben-yaourt-nature-libanais-maison_2_680.jpg" width="60" height="60" alt="laban"></td>
+                    <td valign="middle"><b>Laban (babeurre)</b> – frais <font color="#b64516"><b>3 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Wme07f2xMJu1p_rmHdjkrme5gAMDLj7WGg&s" width="60" height="60" alt="eau"></td>
+                    <td valign="middle"><b>Eau Safia</b> (50cl) <font color="#b64516"><b>2 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://otrity.com/wp-content/uploads/boga-lime-boite.jpg" width="60" height="60" alt="boga"></td>
+                    <td valign="middle"><b>Boga</b> – limonade gazeuse <font color="#b64516"><b>3 DT</b></font></td>
+                </tr>
+            </table>
+        </td>
+
+        <!-- fine ligne verticale entre colonne 2 et 3 -->
+        <td width="1" bgcolor="#d9b382"></td>
+
+        <!-- ----- COLONNE DROITE : DESSERTS ----- -->
+        <td width="33%" bgcolor="#fff7ec" valign="top">
+            <font size="5" face="Arial" color="#b64516"><b>🍰 DESSERTS</b></font>
+            <br><br>
+            <table border="0" cellpadding="4" cellspacing="0" width="100%">
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td width="70" valign="middle"><img src="https://img.mesrecettesfaciles.fr/2023-10/baklawa-znj-800.webp" width="60" height="60" alt="baklawa"></td>
+                    <td valign="middle"><b>Baklawa</b> – cornes de gazelle, amandes <font color="#b64516"><b>8 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://cuisine.nessma.tv/uploads/6/2019-11/f7bf47f69564c0cdcc9a67c371028541.jpg" width="60" height="60" alt="assida"></td>
+                    <td valign="middle"><b>Assida Zgougou</b> – crème de pin  <font color="#b64516"><b>7 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://patisseriemasmoudi.fr/cdn/shop/articles/carrousel-makroudh-asmar_1024x1024.png?v=1705495270" width="60" height="60" alt="makroudh"></td>
+                    <td valign="middle"><b>Makroudh</b> – semoule, dattes, miel <font color="#b64516"><b>5 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://modo3.com/thumbs/fit630x300/6536/1426507642/%D9%83%D9%8A%D9%81%D9%8A%D8%A9_%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1_%D8%B3%D9%84%D8%B7%D8%A9_%D8%A7%D9%84%D9%81%D9%88%D8%A7%D9%83%D9%87.jpg" width="60" height="60" alt="orange"></td>
+                    <td valign="middle"><b>Salade de fruits</b> – banane, pommes, fraises, dattes  <font color="#b64516"><b>6 DT</b></font></td>
+                </tr>
+                <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+                <tr>
+                    <td valign="middle"><img src="https://i.pinimg.com/564x/2c/79/9b/2c799b996ff7bc10efb6913e511058fd.jpg" width="60" height="60" alt="bambalouni"></td>
+                    <td valign="middle"><b>Bambalouni</b> – beignet sucré <font color="#b64516"><b>4 DT</b></font></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- ========== LIGNE DE SÉPARATION HORIZONTALE ENTRE LES TROIS COLONNES ET LA SECTION SUIVANTE ========= -->
+<hr width="90%" color="#b64516" size="1">
+
+<!-- ========== SECTION COMPLÉMENTAIRE (ENTRÉES ET GRILLADES) AVEC IMAGES À GAUCHE ========= -->
+<center>
+    <font size="5" face="Arial" color="#b64516"><b>🔥 ENTRÉES & GRILLADES</b></font>
+</center>
+<br>
+
+<!-- on reprend une table simple à 2 colonnes, images petites à gauche, description à droite -->
+<table width="80%" align="center" cellpadding="8" cellspacing="0" border="0">
+    <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+    <tr>
+        <td width="80" valign="middle"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRemDO-_aUBJc_Ymvl26im5HYmIkfMCqKJuZA&s" width="50" height="50" alt="brik"></td>
+        <td valign="middle"><b>Brik à l'œuf</b> – câpres, persil, citron <font color="#b64516">8 DT</font></td>
+    </tr>
+    <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+    <tr>
+        <td valign="middle"><img src="https://img.cuisineaz.com/660x660/2024/08/16/i199460-salade-mechouia-tunisienne.jpg" width="50" height="50" alt="méchouia"></td>
+        <td valign="middle"><b>Salade méchouia</b> – poivrons, thon, œuf dur <font color="#b64516">12 DT</font></td>
+    </tr>
+    <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+    <tr>
+        <td valign="middle"><img src="https://www.seriouseats.com/thmb/qzHLmR7wWfIb6skYuzI4rPtdOqs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__20130729-261058-merguez-grilled-18b0d9646d2b44efb5283bb6b7f12350.jpg" width="50" height="50" alt="merguez"></td>
+        <td valign="middle"><b>Merguez (6pcs)</b> – frites maison, harissa <font color="#b64516">12 DT</font></td>
+    </tr>
+    <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+    <tr>
+        <td valign="middle"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZC0KJZwDQ5X4jfMmkQ7Y7qL0epm-C4_FC3g&s" width="50" height="50" alt="brochette"></td>
+        <td valign="middle"><b>Brochette poulet</b> – marinade tunisienne, riz <font color="#b64516">16 DT</font></td>
+    </tr>
+    <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+    <tr>
+        <td valign="middle"><img src="https://tunisie.co/uploads/images/content/fricasse-210121-3.jpg" width="50" height="50" alt="fricassé"></td>
+        <td valign="middle"><b>Fricassé</b> – petit sandwich thon, harissa, pomme <font color="#b64516">6 DT</font></td>
+    </tr>
+    <tr><td colspan="2"><hr size="1" color="#d9b382"></td></tr>
+</table>
+
+<br>
+
+<!-- ========== PIED DE PAGE AVEC INFOS ========== -->
+<center>
+    <hr width="70%" color="#b64516" size="1">
+    <font face="Verdana" size="2">
+        📍 Korniche, Gabés  &nbsp;|&nbsp; 📞 +216 71 000 000<br>
+        🕒 17h–00h (Ramadan : veillée spéciale)<br>
+        <img src="https://placehold.co/300x40/edd7b0/3f2b1a?text=livraison+%C3%A0+domicile" width="300" height="40" alt="livraison">
+    </font>
+    <br>
+    <font color="#7b4b2a" size="1">─────  menu 100% tunisien  •  petits prix  •  images tradition  ─────</font>
+</center>
+
+<!-- Aucune bordure de tableau extérieur, uniquement des filets horizontaux fins et deux bandes verticales -->
+</body>
+</html>
